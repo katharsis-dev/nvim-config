@@ -1,8 +1,8 @@
 " Ensure encoding is utf-8
 set encoding=utf-8
 
-" cal plug#begin('C:\Users\Brytton Tsai\AppData\Local\nvim\plugged')
-cal plug#begin('./plugged')
+cal plug#begin('C:\Users\Brytton Tsai\AppData\Local\nvim\plugged')
+" cal plug#begin('./plugged')
 
 " Plugins
 " File Explorer GUI
@@ -27,6 +27,7 @@ Plug 'onsails/lspkind.nvim'
 
 " Syntax Highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter-context'
 Plug 'nvim-treesitter/playground'
 
 " Buffer Line
@@ -77,6 +78,7 @@ lua require("Brytton.autosession")
 lua require("Brytton.lspinstaller")
 lua require("Brytton.lspconfig")
 lua require("Brytton.treesitterconfig")
+lua require("Brytton.treesittercontext")
 
 lua require('Brytton.rosepine')
 
