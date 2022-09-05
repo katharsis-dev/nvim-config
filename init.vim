@@ -53,7 +53,6 @@ Plug 'tamton-aquib/staline.nvim'
 "Themes
 Plug 'tomasiser/vim-code-dark'
 Plug 'rose-pine/neovim'
-Plug 'haystackandroid/strawberry'
 Plug 'numToStr/Sakura.nvim'
 
 "Make Terminal Transparent
@@ -177,9 +176,6 @@ endfun
 
 " Rose Ping Colour Theme
 "colorscheme rose-pine
-
-" Strawberry Colour Theme
-"colorscheme strawberry-dark
 
 " Sakura Colour Theme
 "colorscheme sakura
