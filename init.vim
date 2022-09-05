@@ -63,7 +63,7 @@ Plug 'tribela/vim-transparent'
 Plug 'numToStr/Comment.nvim'
 
 "Vim Sessions
-Plug 'rmagatti/auto-session'
+" Plug 'rmagatti/auto-session'
 
 call plug#end()
 
@@ -74,11 +74,11 @@ lua require("Brytton.barbar")
 lua require("Brytton.nvimtree")
 lua require("Brytton.staline")
 lua require("Brytton.comment")
-lua require("Brytton.autosession")
 lua require("Brytton.lspinstaller")
 lua require("Brytton.lspconfig")
 lua require("Brytton.treesitterconfig")
 lua require("Brytton.treesittercontext")
+"lua require("Brytton.autosession")
 
 lua require('Brytton.rosepine')
 
